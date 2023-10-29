@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Open+Sans&family=Oswald&family=Rubik&family=Tilt+Neon&family=Ubuntu&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+    padding:0;
+    margin: 0;
+
+}
+a{
+    color: rgb(0, 0, 0) ; 
+    text-decoration: none;
+}
+body{
+    background-image: linear-gradient(#756c6b,black );
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.container{
+  background-image: 
+  linear-gradient(to right,#756c6b86,#00000098  ),
+  url(asu.jpg)
+  
+  ;
+
+    width: 90%;
+    height: 640px;
+
+}
+.container:hover{
+    background-image: 
+  linear-gradient(to right,#4f52537e,transparent   ),
+  url(asu.jpg)
+  
+  ;
+
+}
+header{
+    display:flex ;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    color: white;
+   font-size: 20px;
+    text-transform: uppercase;
+
+
+}
+ul{
+    width: 60%;
+    list-style:none ;
+    display: flex;
+    justify-content:space-evenly ;
+
+}
+ul a{
+    border-bottom: 2px solid transparent;
+}
+ul a:hover{
+    border-bottom-color:white ;
+}
+.div01{
+  width: 50%;
+  margin-top: 50px;
+  padding: 30px;
+}
+.div01 h2{
+    color: white;
+    font-size: 20px;
+    text-transform:uppercase ;
+
+}
+.div01 p{
+    color: azure;
+    letter-spacing: 1px;
+    width: 340px; ;
+    padding: 20px 0;
+
+}
+.div01 button{
+    font-size: 15px;
+    padding: 6px 10px;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    cursor: pointer;
+
+}
+.div01 button:hover{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+
+}
